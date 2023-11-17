@@ -1,2 +1,6 @@
 class Dish():
-    pass
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+    def update_price(self, price):
+        self.price = price
